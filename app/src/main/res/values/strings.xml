@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BEARSus</string>
+    <string-array name="names">
+        <item>Einrick</item>
+        <item>Elizabeth</item>
+        <item>Psyla</item>
+    </string-array>
+
+</resources>

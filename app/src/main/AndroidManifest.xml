@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.einrick.layout">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:enabled="true" android:name=".BackgroundSoundService" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameOptions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pattern_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Countdown"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".four_in_a_row"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".winner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".selectgame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".spot_the_bear"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".select_bear"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".select_bear_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tap_chloe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".highscores"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".remove_user"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".help"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pop_info"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomeTheme"/>
+    </application>
+
+</manifest>
